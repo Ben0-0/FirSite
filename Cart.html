@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniro-Shop</title>
+    <link rel="icon" href="FirSiteIcon.png">
+</head>
+<body>
+    <header>
+        <div id="pagelogo">
+            <a href="index.html" id="brandlogo"> <!--tag(thẻ) a được dùng để làm cho những dòng bên trong được gắn hyperlink tới cái attribute là href của nó -->
+                <img id="iconlogo" src="FirSiteIcon.png" alt="Furniro-Icon">
+                <h1 id="brandname">Furniro</h1>
+            </a>
+        </div>
+        <nav id="pagenav"> <!--thẻ nav được dùng để website hiểu được cái bên trong được specifically design cho vụ link navigation, dù thẻ div vẫn làm đc nma làm v để khi đọc code nhìn có ý nghĩa và ng đọc hiểu được là mình đang hiểu mình cần phải làm gì chứ ko phải cứ quăng nó vô div ko là được-->
+            <ul id="pagenavlist">
+                <li> <a href="index.html" id="homelink">Home</a></li>
+                <li> <a href="Shop.html" id="shoplink">Shop</a></li>
+                <li> <a href="About.html" id="aboutlink">About</a></li>
+                <li> <a href="Contact.html" id="contactlink">Contact</a></li>
+            </ul>
+        </nav>
+        <nav id="supportnav">
+            <ul id="supportnavlist">
+                <li> <img id="alert" src="Alert.png" alt="Alert-Icon"></li>
+                <li> <img id="search" src="Search.png" alt="Search-Icon"></li>
+                <li> <img id="heart" src="Heart.png" alt ="Heart-Icon"></li>
+                <li> <a href="Cart.html"> <img id="cart" src="ShoppingCart.png" alt ="Cart-Icon"> </a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section id="section-1">
+            <centre id="s1-heading">
+                <h1 id="s1-l1">Cart</h1>
+                <p id="s1-l2">Home > Cart</p>
+            </centre>
+        </section>
+        <section id="section-2">
+
+
+            
+        </section>
+        <section id="section-3">
+            <ul id="bannerlist">
+                <l><img id="quality" src="Trophy.png" alt="Trophy-Image">
+                    <div id="quality-desc">
+                        <h3>High Quality</h3>
+                        <p>crafted from top materials</p>
+                    </div>
+                </l>
+                <l><img id="warranty" src="Checkmark.png" alt="Checkmark-Image">
+                    <div id="warranty-desc">
+                        <h3>Warranty Protection</h3>
+                        <p>Over 2 years</p>
+                    </div>
+                </l>
+                <l><img id="shipping" src="Shipping.png" alt="Shipping-Image">
+                    <div id="shipping-desc">
+                        <h3>Free Shipping</h3>
+                        <p>Order over 150 $</p>
+                    </div>
+                </l>
+                <l><img id="support" src="Support.png" alt="Support-Image">
+                    <div id="support-desc">
+                        <h3>24/7 Support</h3>
+                        <p>Dedicated support</p>
+                    </div>
+                </l>
+            </ul>
+        </section>   
+
+    </main>
+
+    <footer>
+        <hr>
+        <h3 id="footer-heading">Funiro.</h3>
+        <p id="address">400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+        <nav id="footernav">
+            <div id="footerlink">
+                <p id="footerlinkheading">Links</p>
+                <ul id="footerlinklist">
+                    <li><a class="footernavlink" href="index.html">Home</a></li>
+                    <li><a class="footernavlink" href="Shop.html">Shop</a></li>
+                    <li><a class="footernavlink" href="About.html">About</a></li>
+                    <li><a class="footernavlink" href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div id="footerhelp">
+                <p id="footerhelpheading">Help</p>
+                <ul id="footerhelplist">
+                    <li><a class="footernavlink" href="Payment-Options.html">Payment Options</a></li>
+                    <li><a class="footernavlink" href="Returns.html">Returns</a></li>
+                    <li><a class="footernavlink" href="Privacy-Policies.html">Privacy Policies</a></li>
+                </ul>
+            </div>
+            <form id="footerform">
+                <p id="footerformheading">Newsletter</p>
+                <input type="text" placeholder="Enter Your Email Address">
+                <button id="subscribe-button">SUBSCRIBE</button>
+            </form>
+        </nav>
+        <hr style="width: 90%;">
+        <p id="furnirorights">2023 furino. All rights reserved</p>
+    </footer>
+</body>
