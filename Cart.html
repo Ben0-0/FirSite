@@ -35,14 +35,35 @@
     <main>
         <section id="section-1">
             <centre id="s1-heading">
+                <img id="icon" src="FirSiteIcon.png" alt="Furniro-Icon">
                 <h1 id="s1-l1">Cart</h1>
                 <p id="s1-l2">Home > Cart</p>
             </centre>
         </section>
         <section id="section-2">
+            <div id="cart-heading">
+                <h4>Product</h4>
+                <h4>Price</h4>
+                <h4>Quantity</h4>
+                <h4>Subtotal</h4>
+            </div>
+            <div id="cart">
+                <img id="asgaard-sofa" src="Asgaard-Sofa.png" alt="Asgaard-Sofa-Image">
+                <p id="product">Asgaard sofa</p>
+                <p id="price">Rp 250.000,00</p>
+                <form id="quantity">
+                    <input type="number" placeholder="1">
+                </form>
+                <h5 id="subtotal">Rp 250.000,00</h5>
+                <img id="delete" src="Trash-Can.png" alt="Trash-Can-Image" onclick="clicked()">
+            </div>
+            <div id="total">
+                <h3>Cart Totals</h3>
+                <h5>Subtotal</h5> <p>Rp 250.000,00</p>
+                <h5>Total</h5> <h4>Rp 250.000,00</h4>
+                <button id="s2-checkout"><a href="Payment-Options.html">Check Out</a></button>
+            </div>
 
-
-            
         </section>
         <section id="section-3">
             <ul id="bannerlist">
@@ -72,7 +93,6 @@
                 </l>
             </ul>
         </section>   
-
     </main>
 
     <footer>
